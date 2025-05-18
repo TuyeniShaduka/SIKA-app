@@ -1,9 +1,9 @@
-import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native';
 import { Link } from 'expo-router';
+import { Image, StyleSheet, Text, TouchableOpacity } from 'react-native';
 
 export default function HomeScreen() {
   return (
-    <Link href="/other-screen" asChild>
+    <Link href="/login" asChild>
       <TouchableOpacity style={styles.container} activeOpacity={0.9}>
         {/* Custom Image */}
         <Image 
