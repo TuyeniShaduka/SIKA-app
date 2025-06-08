@@ -264,7 +264,7 @@ const styles = StyleSheet.create({
     width: '30%',
   },
   statNumber: {
-    fontSize: 20,
+    fontSize: 22,
     fontWeight: 'bold',
     color: '#130160', // Dark blue primary color
   },
@@ -321,7 +321,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   jobCard: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#C9CCA2',
     borderRadius: 10,
     marginHorizontal: 20,
     marginBottom: 15,
@@ -399,6 +399,6 @@ const styles = StyleSheet.create({
     padding: 20,
     alignItems: 'flex-start',
     marginTop: 20,
-    width: '100%',
+    width: '110%',
   },
 });
