@@ -19,7 +19,8 @@ export default function RootLayout() {
   });
 
   useEffect(() => {
-      if (fontsLoaded || fontError) {
+      
+import * as SplashScreen from 'expo-splash-screen';
       SplashScreen.hideAsync();
     }
   }, [fontsLoaded, fontError]);
