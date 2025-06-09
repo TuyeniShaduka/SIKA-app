@@ -6,9 +6,8 @@ import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import 'react-native-reanimated';
 
-import { useColorScheme } from '@/hooks/useColorScheme';
+import { useColorScheme } from '@/hooks/useColorScheme
 import { FirebaseProvider } from '../components/FirebaseProvider';
-
 // Prevent the splash screen from auto-hiding
 SplashScreen.preventAutoHideAsync();
 
