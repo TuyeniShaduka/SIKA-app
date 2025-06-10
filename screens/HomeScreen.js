@@ -15,6 +15,7 @@ import { collection, getDocs, query, where } from "firebase/firestore";
 export default function HomeScreen({ navigation }) {
   const [jobListings, setJobListings] = useState([]);
 
+  
   useEffect(() => {
     const fetchJobListings = async () => {
       try {
