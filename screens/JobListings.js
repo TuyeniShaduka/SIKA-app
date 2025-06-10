@@ -11,7 +11,7 @@ const JobListings = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
-    const fetchJobListings = async () => {
+    const fetchJobListings = async ()=> {
       try {
         let q;
 
