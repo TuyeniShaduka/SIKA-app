@@ -77,7 +77,7 @@ const handleSignUp = async () => {
   } catch (error) {
     Alert.alert(
       "Signup Error",
-      error.message || "An error occurred during signup"
+      error.message || "An error occurred during the signup"
     );
   } finally {
     setIsLoading(false);
