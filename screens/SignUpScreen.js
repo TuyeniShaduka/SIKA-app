@@ -56,7 +56,7 @@ const handleSignUp = async () => {
   }
 
   if (formData.password !== formData.confirmPassword) {
-    Alert.alert("Error", "Passwords do not match");
+    Alert.alert("Error", "Passwords do not match at all");
     return;
   }
 
