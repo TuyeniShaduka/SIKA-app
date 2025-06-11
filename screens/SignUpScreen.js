@@ -51,7 +51,7 @@ const handleSignUp = async () => {
   }
 
   if (formData.password.length < 6) {
-    Alert.alert("Error", "Password should be at least 6 characters");
+    Alert.alert("Error", "Your password should be at least 6 characters");
     return;
   }
 
