@@ -41,7 +41,7 @@ export default function SignUpScreen() {
 
 const handleSignUp = async () => {
   if (!formData.fullName.trim()) {
-    Alert.alert("Error", "Please enter your full name");
+    Alert.alert("Error", "Please enter your first and last name");
     return;
   }
 
